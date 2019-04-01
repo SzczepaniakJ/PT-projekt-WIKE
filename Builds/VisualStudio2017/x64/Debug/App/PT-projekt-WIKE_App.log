@@ -12,6 +12,7 @@
   include_juce_gui_basics.cpp
   include_juce_gui_extra.cpp
   include_juce_opengl.cpp
-e:\io - projekt\pt-projekt-wike\pt-projekt-wike\source\main.cpp(26): warning C4100: 'commandLine': unreferenced formal parameter
-e:\io - projekt\pt-projekt-wike\pt-projekt-wike\source\main.cpp(48): warning C4100: 'commandLine': unreferenced formal parameter
-  PT-projekt-WIKE_App.vcxproj -> E:\IO - projekt\PT-projekt-WIKE\PT-projekt-WIKE\Builds\VisualStudio2017\x64\Debug\App\PT-projekt-WIKE.exe
+c:\users\szczepan\desktop\pt-projekt-wike\pt-projekt-wike\source\main.cpp(26): warning C4100: 'commandLine': unreferenced formal parameter
+c:\users\szczepan\desktop\pt-projekt-wike\pt-projekt-wike\source\main.cpp(48): warning C4100: 'commandLine': unreferenced formal parameter
+  LINK : C:\Users\Szczepan\Desktop\PT-projekt-WIKE\PT-projekt-WIKE\Builds\VisualStudio2017\x64\Debug\App\\PT-projekt-WIKE.exe not found or not built by the last incremental link; performing full link
+  PT-projekt-WIKE_App.vcxproj -> C:\Users\Szczepan\Desktop\PT-projekt-WIKE\PT-projekt-WIKE\Builds\VisualStudio2017\x64\Debug\App\PT-projekt-WIKE.exe
