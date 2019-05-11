@@ -5,15 +5,16 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
+using System.Drawing;
 
 namespace PT_Projekt_WIKE2 {
     public sealed class TextRecognizer {
-        public TextRecognizer() {
-            SubscriptionKey = "bfe5fa4dc9464c6da966cb9870591222";
+        public TextRecognizer(string key) {
+            SubscriptionKey = key;
             URI = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/";
         }
 
-        private string SubscriptionKey { get; }
+        private string SubscriptionKey { get; set; }
         private string URI { get; }
 
         public async Task<string> RecognizeText(string imageFilePath) {
