@@ -32,13 +32,13 @@ namespace PT_Projekt_WIKE2 {
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e) {
-            if(TesseractCheckBox.IsChecked == true)
+            if(TesseractRadioButton.IsChecked == true)
             {
                 var ocr = new TesseractEngine("./tessdata", "eng", EngineMode.TesseractAndCube);
                 var page = ocr.Process(image);
                 ResponseBodyTextBlock.Text = page.GetText();
             }
-            else
+            else if(MicrosoftRadioButton.IsChecked == true)
             {
                 TextRecognizer textRecognizer = new TextRecognizer(KeyTextBox.Text);
                 
@@ -80,5 +80,6 @@ namespace PT_Projekt_WIKE2 {
                 }
             }
         }
+
     }
 }
