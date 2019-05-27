@@ -10,6 +10,30 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File" FontSize="16">
+                    <MenuItem Header="_Load Image" FontSize="16" Click="menuLoadImage_Click"/>
+                    <MenuItem Header="_Save Image" FontSize="16"/>
+                    <MenuItem Header="_Save Recognized Text" FontSize="16"/>
+                    <Separator />
+                    <MenuItem Header="_Exit" FontSize="16"/>
+                </MenuItem>
+                <MenuItem Header="_Computer Vision" FontSize="16">
+                    <MenuItem Header="_Select Server" FontSize="16"/>
+                    <MenuItem Header="_Insert API key" FontSize="16"/>
+                </MenuItem>
+                <MenuItem Header="_Tesseract" FontSize="16">
+                    <MenuItem Header="_Select Mode" FontSize="16">
+                        <MenuItem x:Name="Tesseract_and_Cube" Header="_Tesseract and Cube" FontSize="16" IsCheckable="True" IsChecked="True" Click="TesseractAndCube_Click"/>
+                        <MenuItem x:Name="Tesseract_Only" Header="_Tesseract Only" FontSize="16" IsCheckable="True" IsChecked="False" Click="TesseractOnly_Click"/>
+                        <MenuItem x:Name="Cube_Only" Header="_Cube Only" FontSize="16" IsCheckable="True" IsChecked="False" Click="CubeOnly_Click"/>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+            <TextBox AcceptsReturn="True" />
+        </DockPanel>
+
         <Button Content="Process" HorizontalAlignment="Left" Margin="395,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="Button_Click"/>
         <TextBox x:Name="ResponseBodyTextBlock" HorizontalAlignment="Left" Margin="572,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="268" Width="434" FontSize="16"/>
         <Image x:Name="LoadedImage" HorizontalAlignment="Left" Height="380" Margin="57,90,0,0" VerticalAlignment="Top" Width="438" Stretch="Uniform"/>
@@ -20,5 +44,12 @@
         <RadioButton x:Name="TesseractRadioButton" Content="Tesseract" HorizontalAlignment="Left" Margin="57,608,0,0" VerticalAlignment="Top" FontSize="16" Height="35" Width="91"/>
         <Label x:Name="label1" Content="Recognized text:" HorizontalAlignment="Left" Margin="572,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="16"/>
         <Label x:Name="label1_Copy" Content="Loaded image:" HorizontalAlignment="Left" Margin="57,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="16"/>
+        <TextBox x:Name="TextBlock" HorizontalAlignment="Left" Margin="572,455,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="188" Width="352" FontSize="16"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="906,363,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="Search_Click"/>
+        <Popup x:Name="TesseractModePopup" IsOpen="False" Width="300" Height="300" Placement="Center">
+            <Border Background="White" BorderThickness="1" BorderBrush="Black">
+                <Button x:Name="SaveTesseractMode" Content="Save" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="50" Click="SaveTesseractMode_Click" Margin="239,254,0,0"/>
+            </Border>
+        </Popup>
     </Grid>
 </Window>
