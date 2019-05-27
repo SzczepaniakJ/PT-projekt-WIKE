@@ -21,7 +21,7 @@
                 </MenuItem>
                 <MenuItem Header="_Computer Vision" FontSize="16">
                     <MenuItem Header="_Select Server" FontSize="16"/>
-                    <MenuItem Header="_Insert API key" FontSize="16"/>
+                    <MenuItem Header="_Insert API key" FontSize="16" Click="insertAPIKey_Click"/>
                 </MenuItem>
                 <MenuItem Header="_Tesseract" FontSize="16">
                     <MenuItem Header="_Select Mode" FontSize="16">
@@ -34,22 +34,38 @@
             <TextBox AcceptsReturn="True" />
         </DockPanel>
 
-        <Button Content="Process" HorizontalAlignment="Left" Margin="395,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="Button_Click"/>
+        <Button Content="Process" HorizontalAlignment="Left" Margin="331,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="Button_Click"/>
+        <Button Content="Adjust Contrast" HorizontalAlignment="Left" Margin="57,515,0,0" VerticalAlignment="Top" Width="114" FontSize="16" Height="35" Click="adjustContrast_Click"/>
+        <Button Content="Grayscale" HorizontalAlignment="Left" Margin="57,555,0,0" VerticalAlignment="Top" Width="114" FontSize="16" Height="35" Click="grayscale_Click"/>
+        <Button Content="Black and White" HorizontalAlignment="Left" Margin="57,595,0,0" VerticalAlignment="Top" Width="114" FontSize="16" Height="35" Click="bw_Click"/>
+        <Button Content="Rotate by degree" HorizontalAlignment="Left" Margin="57,633,0,0" VerticalAlignment="Top" Width="157" FontSize="16" Height="35" Click="rotate_Click"/>
         <TextBox x:Name="ResponseBodyTextBlock" HorizontalAlignment="Left" Margin="572,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="268" Width="434" FontSize="16"/>
         <Image x:Name="LoadedImage" HorizontalAlignment="Left" Height="380" Margin="57,90,0,0" VerticalAlignment="Top" Width="438" Stretch="Uniform"/>
         <Button x:Name="LoadImageButton" Content="Load image" HorizontalAlignment="Left" Margin="57,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="LoadImageButton_Click"/>
-        <TextBox x:Name="KeyTextBox" HorizontalAlignment="Left" Height="35" Margin="235,568,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontSize="16" RenderTransformOrigin="0.504,0.857"/>
-        <Label x:Name="label" Content="Microsoft Computer Vision API key:" HorizontalAlignment="Left" Margin="235,532,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <RadioButton x:Name="MicrosoftRadioButton" Content="MS Computer Vision" HorizontalAlignment="Left" Margin="57,568,0,0" VerticalAlignment="Top" FontSize="16" Height="35"/>
-        <RadioButton x:Name="TesseractRadioButton" Content="Tesseract" HorizontalAlignment="Left" Margin="57,608,0,0" VerticalAlignment="Top" FontSize="16" Height="35" Width="91"/>
+        <Button x:Name="ResetToOriginalImageButton" Content="Reset image" HorizontalAlignment="Left" Margin="171,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="resetImageButton_Click"/>
+        <RadioButton x:Name="MicrosoftRadioButton" Content="MS Computer Vision" HorizontalAlignment="Left" Margin="331,515,0,0" VerticalAlignment="Top" FontSize="16" Height="35"/>
+        <RadioButton x:Name="TesseractRadioButton" Content="Tesseract" HorizontalAlignment="Left" Margin="331,555,0,0" VerticalAlignment="Top" FontSize="16" Height="35" Width="91"/>
         <Label x:Name="label1" Content="Recognized text:" HorizontalAlignment="Left" Margin="572,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="16"/>
         <Label x:Name="label1_Copy" Content="Loaded image:" HorizontalAlignment="Left" Margin="57,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="16"/>
-        <TextBox x:Name="TextBlock" HorizontalAlignment="Left" Margin="572,455,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="188" Width="352" FontSize="16"/>
+        <Label x:Name="label2" Content="Component information:" HorizontalAlignment="Left" Margin="572,397,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="16"/>
+        <TextBox x:Name="TextBlock" HorizontalAlignment="Left" Margin="572,433,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="188" Width="434" FontSize="16"/>
         <Button Content="Search" HorizontalAlignment="Left" Margin="906,363,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="Search_Click"/>
+        <Popup x:Name="ComputerVisionAPIKey" IsOpen="False" Width="300" Height="150" Placement="Center">
+            <Border Background="White" BorderThickness="1" BorderBrush="Black">
+                <Grid>
+                    <Label x:Name="APIKeyLabel" Content="Microsoft Computer Vision API key:" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" FontSize="16"/>
+                    <Button x:Name="SaveComputerVisionApiKey" Content="Save" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="50" Click="saveComputerVisionApiKey_Click" Margin="230,100,0,0"/>
+                    <TextBox x:Name="KeyTextBox" HorizontalAlignment="Left" Height="35" Margin="20,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontSize="16"/>
+                </Grid>
+            </Border>
+        </Popup>
         <Popup x:Name="TesseractModePopup" IsOpen="False" Width="300" Height="300" Placement="Center">
             <Border Background="White" BorderThickness="1" BorderBrush="Black">
                 <Button x:Name="SaveTesseractMode" Content="Save" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="50" Click="SaveTesseractMode_Click" Margin="239,254,0,0"/>
             </Border>
         </Popup>
+        <TextBox x:Name="ContrastTextBox" HorizontalAlignment="Left" Height="33" Margin="171,517,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" FontSize="16"/>
+        <TextBox x:Name="ThresholdTextBox" HorizontalAlignment="Left" Height="33" Margin="171,595,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" FontSize="16"/>
+        <TextBox x:Name="AngleTextBox" HorizontalAlignment="Left" Height="33" Margin="219,635,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" FontSize="16"/>
     </Grid>
 </Window>
