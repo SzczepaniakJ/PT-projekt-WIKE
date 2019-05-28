@@ -31,9 +31,10 @@
                     </MenuItem>
                 </MenuItem>
             </Menu>
-            <TextBox AcceptsReturn="True" />
+            <TextBox AcceptsReturn="True" />            
         </DockPanel>
 
+        <Slider x:Name="ThresholdSlider" Margin="228,595,747,62" Minimum="0" Maximum="255" ValueChanged="slider_Change"/>
         <Button Content="Process" HorizontalAlignment="Left" Margin="331,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="Button_Click"/>
         <Button Content="Adjust Contrast" HorizontalAlignment="Left" Margin="57,515,0,0" VerticalAlignment="Top" Width="114" FontSize="16" Height="35" Click="adjustContrast_Click"/>
         <Button Content="Grayscale" HorizontalAlignment="Left" Margin="57,555,0,0" VerticalAlignment="Top" Width="114" FontSize="16" Height="35" Click="grayscale_Click"/>

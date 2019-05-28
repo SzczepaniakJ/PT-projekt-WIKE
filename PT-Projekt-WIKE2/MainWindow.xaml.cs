@@ -346,7 +346,8 @@ namespace PT_Projekt_WIKE2 {
 
         private void bw_Click(object sender, RoutedEventArgs e)
         {
-            image = make_bw(image, Int32.Parse(ThresholdTextBox.Text));
+            //image = make_bw(image, Int32.Parse(ThresholdTextBox.Text));
+            image = make_bw(image, (int)(ThresholdSlider.Value));
             LoadedImage.Source = (ImageSource)Convert(image);
         }
 
@@ -354,6 +355,11 @@ namespace PT_Projekt_WIKE2 {
         {
             image = RotateImage(image, Int32.Parse(AngleTextBox.Text));
             LoadedImage.Source = (ImageSource)Convert(image);
+        }
+
+        private void slider_Change(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            ThresholdTextBox.Text = ((int)ThresholdSlider.Value).ToString();
         }
 
         private void resetImageButton_Click(object sender, RoutedEventArgs e)
