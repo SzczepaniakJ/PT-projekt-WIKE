@@ -1,12 +1,62 @@
 [
-	{
-		"Name":"Ryzen 5 1600 fdskhfsd fdskj hdskdf   dsfkhkfhjh",
-		"URL":"https://en.wikichip.org/wiki/amd/ryzen_5/1600",
-		"Info":"Ryzen 5 1600 is a 64-bit hexa-core mid-range performance x86 desktop microprocessor set to be introduced by AMD in early 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1600 operates at a base frequency of 3.2 GHz with a TDP of 65 W and a Boost frequency of up to 3.6 GHz. This model is a less overclockable friendly version of the 1600X. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
-	},
-	{
-		"Name":"Intel Core i7-2600K SR00C 3.40GHZ MALAY L039B461",
-		"URL":"",
-		"Info":"Type / Form Factor Intel Core i7 2600K (2nd Gen) Cache Memory Details Smart Cache - 8 MB 64-bit Computing Yes Type Core i7 Number of Cores Quad-Core Number of Threads 8 threads Processor Number i7-2600K Generation 2 Thermal Design Power 95 W"
-	}
+  {
+    "Name": "Intel Core i7-2600K SR00C 3.40GHZ MALAY L039B461",
+    "URL": "",
+    "Info": "Type / Form Factor Intel Core i7 2600K (2nd Gen) Cache Memory Details Smart Cache - 8 MB 64-bit Computing Yes Type Core i7 Number of Cores Quad-Core Number of Threads 8 threads Processor Number i7-2600K Generation 2 Thermal Design Power 95 W"
+  },
+  {
+    "Name": "Ryzen 3 1200",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/1200",
+    "Info": "Ryzen 3 1200 is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in late 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1200 operates at a base frequency of 3.1 GHz with a TDP of 65 W and a Boost frequency of 3.4 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
+  },
+  {
+    "Name": "Ryzen 3 1300X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/1300x",
+    "Info": "Ryzen 3 1300X is a 64-bit quad-core entry-level performance x86 desktop microprocessor introduced by AMD in late 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1300X operates at a base frequency of 3.4 GHz with a TDP of 65 W and a Boost frequency of up to 3.7 GHz and an XFR of 3.9 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
+  },
+  {
+    "Name": "Ryzen 3 2200G",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/2200g",
+    "Info": "Ryzen 3 2200G is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 2200G operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2933 memory and incorporates Radeon Vega 8 Graphics operating at 1.1 GHz."
+  },
+  {
+    "Name": "Ryzen 3 PRO 1200",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/pro_1200",
+    "Info": "Ryzen 3 PRO 1200 is a 64-bit quad-core mid-range performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1200 operates at a base frequency of 3.1 GHz with a TDP of 65 W and a Boost frequency of 3.4 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
+  },
+  {
+    "Name": "Ryzen 3 PRO 1300",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/pro_1300",
+    "Info": "Ryzen 3 PRO 1300 is a 64-bit quad-core mid-range performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1300 operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
+  },
+  {
+    "Name": "Ryzen 3 PRO 2200G",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/pro_2200g",
+    "Info": "Ryzen 3 PRO 2200G is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The R2200G operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2400 memory and incorporates Radeon Vega 8 Graphics operating at 1.1 GHz."
+  },
+  {
+    "Name": "Ryzen 5 1400",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/1400",
+    "Info": "Ryzen 5 1400 is a 64-bit quad-core mid-range performance x86 desktop microprocessor introduced by AMD in march of 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1400 operates at a base frequency of 3.2 GHz with a TDP of 65 W and a Boost frequency of up to 3.4 GHz and an XFR of 3.45 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 5 1500X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/1500x",
+    "Info": "Ryzen 5 1500X is a 64-bit quad-core mid-range performance x86 desktop microprocessor introduced by AMD in March of 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1500X operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of up to 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 5 1600",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/1600",
+    "Info": "Ryzen 5 1600 is a 64-bit hexa-core mid-range performance x86 desktop microprocessor set to be introduced by AMD in early 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1600 operates at a base frequency of 3.2 GHz with a TDP of 65 W and a Boost frequency of up to 3.6 GHz. This model is a less overclockable friendly version of the 1600X. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 5 1600X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/1600x",
+    "Info": "Ryzen 5 1600X is a 64-bit hexa-core mid-range performance x86 desktop microprocessor introduced by AMD in March of 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1600X operates at a base frequency of 3.6 GHz with a TDP of 95 W and a Boost frequency of up to 4 GHz with an XFR of 4.1 GHz. This model is better suited for overclocking (as opposed to its 1600 variant). This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 5 2400G",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/2400g",
+    "Info": "Ryzen 5 2400G is a 64-bit quad-core mid-range performance x86 desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 2400G operates at a base frequency of 3.6 GHz with a TDP of 65 W and a Boost frequency of 3.9 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2933 memory and incorporates Radeon RX Vega 11 Graphics operating at 1.25 GHz. "
+  }
 ]
