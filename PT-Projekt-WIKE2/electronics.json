@@ -123,5 +123,25 @@
     "Name": "ARDUINO UNO",
     "URL": "https://www.arduino.cc/en/guide/introduction",
     "Info": "Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online. "
+  },
+  {
+    "Name": "2.0 TB",
+    "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
+    "Info": "A hard disk drive (HDD), hard disk, hard drive, or fixed disk,[b] is an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
+  },
+  {
+    "Name": "2 TB",
+    "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
+    "Info": "A hard disk drive (HDD), hard disk, hard drive, or fixed disk,[b] is an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
+  },
+  {
+    "Name": "1.0 TB",
+    "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
+    "Info": "A hard disk drive (HDD), hard disk, hard drive, or fixed disk,[b] is an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
+  },
+  {
+    "Name": "1 TB",
+    "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
+    "Info": "A hard disk drive (HDD), hard disk, hard drive, or fixed disk,[b] is an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
   }
 ]
