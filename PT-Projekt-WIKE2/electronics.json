@@ -58,5 +58,70 @@
     "Name": "Ryzen 5 2400G",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/2400g",
     "Info": "Ryzen 5 2400G is a 64-bit quad-core mid-range performance x86 desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 2400G operates at a base frequency of 3.6 GHz with a TDP of 65 W and a Boost frequency of 3.9 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2933 memory and incorporates Radeon RX Vega 11 Graphics operating at 1.25 GHz. "
+  },
+  {
+    "Name": "Ryzen 5 2400GE",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/2400ge",
+    "Info": "Ryzen 5 2400GE is a 64-bit quad-core mid-range performance x86 embedded microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 2400GE operates at a base frequency of 3.2 GHz with a TDP of 35 W and a Boost frequency of 3.8 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2933 memory and incorporates Radeon RX Vega 11 Graphics operating at 1.25 GHz. "
+  },
+  {
+    "Name": "Ryzen 5 PRO 1500",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/pro_1500",
+    "Info": "Ryzen 5 PRO 1500 is a 64-bit quad-core mid-range performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1600 operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 5 PRO 1600",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/pro_1600",
+    "Info": "Ryzen 5 PRO 1600 is a 64-bit hexa-core mid-range performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1600 operates at a base frequency of 3.2 GHz with a TDP of 65 W and a Boost frequency of up to 3.6 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 5 PRO 2400G",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/pro_2400g",
+    "Info": "Ryzen 5 PRO 2400G is a 64-bit quad-core mid-range performance x86 workstation desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 2400G operates at a base frequency of 3.6 GHz with a TDP of 65 W and a Boost frequency of 3.9 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2400 memory and incorporates Radeon RX Vega 11 Graphics operating at 1.25 GHz. "
+  },
+  {
+    "Name": "Ryzen 7 1700",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/1700",
+    "Info": "Ryzen 7 1700 is a 64-bit octa-core high-end performance x86 desktop microprocessor introduced by AMD in early 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1700 operates at a base frequency of 3 GHz with a TDP of 65 W and a Boost frequency of up to 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 7 1700X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/1700x",
+    "Info": "Ryzen 7 1700X is a 64-bit octa-core high-end performance x86 desktop microprocessor introduced by AMD in early 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1700X operates at a base frequency of 3.4 GHz with a TDP of 95 W and a Boost frequency of up to 3.8 GHz. This model is better suited for overclocking (as opposed to its 1700 variant). This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 7 1800X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/1800x",
+    "Info": "Ryzen 7 1800X is a 64-bit octa-core high-end performance x86 desktop SoC introduced by AMD in early 2017. The 1800X is AMD's flagship model for the AM4 socket. It is based on their Zen microarchitecture, fabricated on a 14 nm process. The 1800X operates at a base frequency of 3.6 GHz with a TDP of 95 W and a Boost frequency of up to 4.0 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-3200 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 7 PRO 1700",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/pro_1700",
+    "Info": "Ryzen 7 PRO 1700 is a 64-bit octa-core high-end performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1700 operates at a base frequency of 3 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen 7 PRO 1700X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/pro_1700x",
+    "Info": "Ryzen 7 PRO 1700X is a 64-bit octa-core high-end performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1700X operates at a base frequency of 3.4 GHz with a TDP of 65 W and a Boost frequency of 3.8 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
+  },
+  {
+    "Name": "Ryzen Threadripper 1900X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_threadripper/1900x",
+    "Info": "Ryzen Threadripper 1900X is a 64-bit octa-core high-performance x86 desktop microprocessor introduced by AMD in mid-2017. The 1900X, which is based on their Zen microarchitecture, is fabricated on a 14 nm process. This processor operates at a base frequency of 3.8 GHz with a TDP of 180 W and a boost frequency of up to 4 GHz. This MPU supports up to 2 TiB of quad-channel DDR4-2666 memory. "
+  },
+  {
+    "Name": "Ryzen Threadripper 1920X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_threadripper/1920x",
+    "Info": "Ryzen Threadripper 1920X is a 64-bit dodeca-core high-performance x86 desktop microprocessor introduced by AMD in mid-2017. The 1920X, which is based on their Zen microarchitecture, is fabricated on a 14 nm process. This processor operates at a base frequency of 3.5 GHz with a TDP of 180 W and a boost frequency of up to 4 GHz. This MPU supports up to 2 TiB of quad-channel DDR4-2666 memory. "
+  },
+  {
+    "Name": "Ryzen Threadripper 1950X",
+    "URL": "https://en.wikichip.org/wiki/amd/ryzen_threadripper/1950x",
+    "Info": "Ryzen Threadripper 1950X is a 64-bit hexadeca-core high-performance x86 desktop microprocessor introduced by AMD in mid-2017. The 1950X, which is based on their Zen microarchitecture, is fabricated on a 14 nm process. This processor operates at a base frequency of 3.4 GHz with a TDP of 180 W and a boost frequency of up to 4 GHz. This MPU supports up to 2 TiB of quad-channel DDR4-2666 memory. "
+  },
+  {
+    "Name": "",
+    "URL": "",
+    "Info": ""
   }
 ]
