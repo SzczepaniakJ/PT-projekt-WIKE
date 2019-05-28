@@ -120,8 +120,8 @@
     "Info": "Ryzen Threadripper 1950X is a 64-bit hexadeca-core high-performance x86 desktop microprocessor introduced by AMD in mid-2017. The 1950X, which is based on their Zen microarchitecture, is fabricated on a 14 nm process. This processor operates at a base frequency of 3.4 GHz with a TDP of 180 W and a boost frequency of up to 4 GHz. This MPU supports up to 2 TiB of quad-channel DDR4-2666 memory. "
   },
   {
-    "Name": "",
-    "URL": "",
-    "Info": ""
+    "Name": "ARDUINO UNO",
+    "URL": "https://www.arduino.cc/en/guide/introduction",
+    "Info": "Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online. "
   }
 ]
