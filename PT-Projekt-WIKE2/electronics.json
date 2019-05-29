@@ -140,6 +140,11 @@
     "Info": "A hard disk drive,an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
   },
   {
+    "Name": "WD20PURX",
+    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
+    "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
+  },
+  {
     "Name": "WD121PURZ",
     "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
     "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
@@ -163,5 +168,30 @@
     "Name": "WD81PURZ",
     "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
     "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
+  },
+  {
+    "Name": "WD120EFAX",
+    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6aa1.pdf",
+    "Info": "With drives up to 10TB, WD Red drives offer a wide array of solutions for customers looking to build a NAS storage solution. Built for single-bay to 8-bay NAS systems, WD Red drives pack the power to store data in one powerhouse unit. "
+  },
+  {
+    "Name": "WD100EFAX",
+    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6aa1.pdf",
+    "Info": "With drives up to 10TB, WD Red drives offer a wide array of solutions for customers looking to build a NAS storage solution. Built for single-bay to 8-bay NAS systems, WD Red drives pack the power to store data in one powerhouse unit. "
+  },
+  {
+    "Name": "WD80EFAX",
+    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6aa1.pdf",
+    "Info": "With drives up to 10TB, WD Red drives offer a wide array of solutions for customers looking to build a NAS storage solution. Built for single-bay to 8-bay NAS systems, WD Red drives pack the power to store data in one powerhouse unit. "
+  },
+  {
+    "Name": "WD60EFRX",
+    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6aa1.pdf",
+    "Info": "With drives up to 10TB, WD Red drives offer a wide array of solutions for customers looking to build a NAS storage solution. Built for single-bay to 8-bay NAS systems, WD Red drives pack the power to store data in one powerhouse unit. "
+  },
+  {
+    "Name": "",
+    "URL": "",
+    "Info": ""
   }
 ]
