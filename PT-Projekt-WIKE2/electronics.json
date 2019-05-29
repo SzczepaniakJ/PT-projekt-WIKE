@@ -120,16 +120,6 @@
     "Info": "Ryzen Threadripper 1950X is a 64-bit hexadeca-core high-performance x86 desktop microprocessor introduced by AMD in mid-2017. The 1950X, which is based on their Zen microarchitecture, is fabricated on a 14 nm process. This processor operates at a base frequency of 3.4 GHz with a TDP of 180 W and a boost frequency of up to 4 GHz. This MPU supports up to 2 TiB of quad-channel DDR4-2666 memory. "
   },
   {
-    "Name": "D4004 2676A",
-    "URL": "https://en.wikipedia.org/wiki/Intel_4004",
-    "Info": "The Intel 4004 is a 4-bit central processing unit (CPU) released by Intel Corporation in 1971. It was the first commercially available microprocessor by Intel,[2] and the first in a long line of Intel CPUs."
-  },
-  {
-    "Name": "C8008-1 0594B",
-    "URL": "https://en.wikipedia.org/wiki/Intel_8008",
-    "Info": "The Intel 8008 (\"eight-thousand-eight\" or \"eighty-oh-eight\") is an early byte-oriented microprocessor designed and manufactured by Intel and introduced in April 1972."
-  },
-  {
     "Name": "C8080A 9064 33001 N8384",
     "URL": "https://en.wikipedia.org/wiki/Intel_8080",
     "Info": "The Intel 8080 (\"eighty-eighty\") was the second 8-bit microprocessor designed and manufactured by Intel and was released in April 1974. It is an extended and enhanced variant of the earlier 8008 design, although without binary compatibility."
