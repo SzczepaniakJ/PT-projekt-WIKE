@@ -186,19 +186,19 @@ namespace PT_Projekt_WIKE2 {
 
         private void Search_Click(object sender, RoutedEventArgs e)
         {
-            /*string[] lines = ResponseBodyTextBlock.Text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+            string[] lines = ResponseBodyTextBlock.Text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
             List<Tuple<ElectronicElement, int>> list = new List<Tuple<ElectronicElement, int>>();
 
             foreach (string line in lines)
             {
                 if (line.Length > 6)
                 {
-                    list.Add(electronicsDictionary.FindClosest(ResponseBodyTextBlock.Text));
+                    list.Add(electronicsDictionary.FindClosest(ResponseBodyTextBlock.Text.ToLower()));
                 }
             }
 
-            var closestElement = list.OrderBy(element => element.Item2).ToList().FirstOrDefault(); */
-            var closestElement = electronicsDictionary.FindClosest(ResponseBodyTextBlock.Text);
+            var closestElement = list.OrderBy(element => element.Item2).ToList().FirstOrDefault();
+            /*var closestElement = electronicsDictionary.FindClosest(ResponseBodyTextBlock.Text);*/
             TextBlock.Text = closestElement.Item1.Name + "\n" + closestElement.Item1.Info;
         }
 
@@ -347,7 +347,7 @@ namespace PT_Projekt_WIKE2 {
         private void bw_Click(object sender, RoutedEventArgs e)
         {
             //image = make_bw(image, Int32.Parse(ThresholdTextBox.Text));
-            image = make_bw(image, (int)(ThresholdSlider.Value));
+            image = make_bw(image, Int32.Parse(ThresholdTextBox.Text));
             LoadedImage.Source = (ImageSource)Convert(image);
         }
 

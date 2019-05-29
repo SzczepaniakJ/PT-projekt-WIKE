@@ -143,5 +143,10 @@
     "Name": "1 TB",
     "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
     "Info": "A hard disk drive (HDD), hard disk, hard drive, or fixed disk,[b] is an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
+  },
+  {
+    "Name": "45CT3YKE4 SN74LS04N",
+    "URL": "",
+    "Info": "7404 IC contains six independent gates each of which performs the logic INVERT function. The operating voltage is 5V, high-level input voltage is 2V, and low-level input is 0.8V."
   }
 ]
