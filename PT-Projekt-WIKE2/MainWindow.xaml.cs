@@ -186,14 +186,14 @@ namespace PT_Projekt_WIKE2 {
 
         private void Search_Click(object sender, RoutedEventArgs e)
         {
-            string[] lines = ResponseBodyTextBlock.Text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+            string[] lines = ResponseBodyTextBlock.Text.Split(new[] { "\n" }, StringSplitOptions.None);
             List<Tuple<ElectronicElement, int>> list = new List<Tuple<ElectronicElement, int>>();
 
             foreach (string line in lines)
             {
                 if (line.Length > 6)
                 {
-                    list.Add(electronicsDictionary.FindClosest(ResponseBodyTextBlock.Text.ToLower()));
+                    list.Add(electronicsDictionary.FindClosest(line.ToLower()));
                 }
             }
 

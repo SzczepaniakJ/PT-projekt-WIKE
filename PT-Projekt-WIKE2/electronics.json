@@ -1,197 +1,127 @@
 [
   {
-    "Name": "Intel Core i7-2600K SR00C 3.40GHZ MALAY L039B461",
+    "Name": "Intel Core i7-2600K",
     "URL": "",
     "Info": "Type / Form Factor Intel Core i7 2600K (2nd Gen) Cache Memory Details Smart Cache - 8 MB 64-bit Computing Yes Type Core i7 Number of Cores Quad-Core Number of Threads 8 threads Processor Number i7-2600K Generation 2 Thermal Design Power 95 W"
   },
   {
-    "Name": "Ryzen 3 1200",
+    "Name": "AMD Ryzen 3 1200",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/1200",
     "Info": "Ryzen 3 1200 is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in late 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1200 operates at a base frequency of 3.1 GHz with a TDP of 65 W and a Boost frequency of 3.4 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
   },
   {
-    "Name": "Ryzen 3 1300X",
+    "Name": "AMD Ryzen 3 1300X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/1300x",
     "Info": "Ryzen 3 1300X is a 64-bit quad-core entry-level performance x86 desktop microprocessor introduced by AMD in late 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1300X operates at a base frequency of 3.4 GHz with a TDP of 65 W and a Boost frequency of up to 3.7 GHz and an XFR of 3.9 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
   },
   {
-    "Name": "Ryzen 3 2200G",
+    "Name": "AMD Ryzen 3 2200G",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/2200g",
     "Info": "Ryzen 3 2200G is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 2200G operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2933 memory and incorporates Radeon Vega 8 Graphics operating at 1.1 GHz."
   },
   {
-    "Name": "Ryzen 3 PRO 1200",
+    "Name": "AMD Ryzen 3 PRO 1200",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/pro_1200",
     "Info": "Ryzen 3 PRO 1200 is a 64-bit quad-core mid-range performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1200 operates at a base frequency of 3.1 GHz with a TDP of 65 W and a Boost frequency of 3.4 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
   },
   {
-    "Name": "Ryzen 3 PRO 1300",
+    "Name": "AMD Ryzen 3 PRO 1300",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/pro_1300",
     "Info": "Ryzen 3 PRO 1300 is a 64-bit quad-core mid-range performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1300 operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory."
   },
   {
-    "Name": "Ryzen 3 PRO 2200G",
+    "Name": "AMD Ryzen 3 PRO 2200G",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_3/pro_2200g",
     "Info": "Ryzen 3 PRO 2200G is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The R2200G operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2400 memory and incorporates Radeon Vega 8 Graphics operating at 1.1 GHz."
   },
   {
-    "Name": "Ryzen 5 1400",
+    "Name": "AMD Ryzen 5 1400",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/1400",
     "Info": "Ryzen 5 1400 is a 64-bit quad-core mid-range performance x86 desktop microprocessor introduced by AMD in march of 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1400 operates at a base frequency of 3.2 GHz with a TDP of 65 W and a Boost frequency of up to 3.4 GHz and an XFR of 3.45 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 5 1500X",
+    "Name": "AMD Ryzen 5 1500X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/1500x",
     "Info": "Ryzen 5 1500X is a 64-bit quad-core mid-range performance x86 desktop microprocessor introduced by AMD in March of 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1500X operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of up to 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 5 1600",
+    "Name": "AMD Ryzen 5 1600",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/1600",
     "Info": "Ryzen 5 1600 is a 64-bit hexa-core mid-range performance x86 desktop microprocessor set to be introduced by AMD in early 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1600 operates at a base frequency of 3.2 GHz with a TDP of 65 W and a Boost frequency of up to 3.6 GHz. This model is a less overclockable friendly version of the 1600X. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 5 1600X",
+    "Name": "AMD Ryzen 5 1600X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/1600x",
     "Info": "Ryzen 5 1600X is a 64-bit hexa-core mid-range performance x86 desktop microprocessor introduced by AMD in March of 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1600X operates at a base frequency of 3.6 GHz with a TDP of 95 W and a Boost frequency of up to 4 GHz with an XFR of 4.1 GHz. This model is better suited for overclocking (as opposed to its 1600 variant). This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 5 2400G",
+    "Name": "AMD Ryzen 5 2400G",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/2400g",
     "Info": "Ryzen 5 2400G is a 64-bit quad-core mid-range performance x86 desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 2400G operates at a base frequency of 3.6 GHz with a TDP of 65 W and a Boost frequency of 3.9 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2933 memory and incorporates Radeon RX Vega 11 Graphics operating at 1.25 GHz. "
   },
   {
-    "Name": "Ryzen 5 2400GE",
+    "Name": "AMD Ryzen 5 2400GE",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/2400ge",
     "Info": "Ryzen 5 2400GE is a 64-bit quad-core mid-range performance x86 embedded microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 2400GE operates at a base frequency of 3.2 GHz with a TDP of 35 W and a Boost frequency of 3.8 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2933 memory and incorporates Radeon RX Vega 11 Graphics operating at 1.25 GHz. "
   },
   {
-    "Name": "Ryzen 5 PRO 1500",
+    "Name": "AMD Ryzen 5 PRO 1500",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/pro_1500",
     "Info": "Ryzen 5 PRO 1500 is a 64-bit quad-core mid-range performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1600 operates at a base frequency of 3.5 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 5 PRO 1600",
+    "Name": "AMD Ryzen 5 PRO 1600",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/pro_1600",
     "Info": "Ryzen 5 PRO 1600 is a 64-bit hexa-core mid-range performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1600 operates at a base frequency of 3.2 GHz with a TDP of 65 W and a Boost frequency of up to 3.6 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 5 PRO 2400G",
+    "Name": "AMD Ryzen 5 PRO 2400G",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_5/pro_2400g",
     "Info": "Ryzen 5 PRO 2400G is a 64-bit quad-core mid-range performance x86 workstation desktop microprocessor introduced by AMD in early 2018. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 2400G operates at a base frequency of 3.6 GHz with a TDP of 65 W and a Boost frequency of 3.9 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2400 memory and incorporates Radeon RX Vega 11 Graphics operating at 1.25 GHz. "
   },
   {
-    "Name": "Ryzen 7 1700",
+    "Name": "AMD Ryzen 7 1700",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/1700",
     "Info": "Ryzen 7 1700 is a 64-bit octa-core high-end performance x86 desktop microprocessor introduced by AMD in early 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1700 operates at a base frequency of 3 GHz with a TDP of 65 W and a Boost frequency of up to 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 7 1700X",
+    "Name": "AMD Ryzen 7 1700X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/1700x",
     "Info": "Ryzen 7 1700X is a 64-bit octa-core high-end performance x86 desktop microprocessor introduced by AMD in early 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1700X operates at a base frequency of 3.4 GHz with a TDP of 95 W and a Boost frequency of up to 3.8 GHz. This model is better suited for overclocking (as opposed to its 1700 variant). This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 7 1800X",
+    "Name": "AMD Ryzen 7 1800X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/1800x",
     "Info": "Ryzen 7 1800X is a 64-bit octa-core high-end performance x86 desktop SoC introduced by AMD in early 2017. The 1800X is AMD's flagship model for the AM4 socket. It is based on their Zen microarchitecture, fabricated on a 14 nm process. The 1800X operates at a base frequency of 3.6 GHz with a TDP of 95 W and a Boost frequency of up to 4.0 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-3200 ECC memory. "
   },
   {
-    "Name": "Ryzen 7 PRO 1700",
+    "Name": "AMD Ryzen 7 PRO 1700",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/pro_1700",
     "Info": "Ryzen 7 PRO 1700 is a 64-bit octa-core high-end performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1700 operates at a base frequency of 3 GHz with a TDP of 65 W and a Boost frequency of 3.7 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen 7 PRO 1700X",
+    "Name": "AMD Ryzen 7 PRO 1700X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_7/pro_1700x",
     "Info": "Ryzen 7 PRO 1700X is a 64-bit octa-core high-end performance x86 workstation microprocessor introduced by AMD in mid-2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The PRO 1700X operates at a base frequency of 3.4 GHz with a TDP of 65 W and a Boost frequency of 3.8 GHz. This MPU supports up to 64 GiB of dual-channel DDR4-2666 ECC memory. "
   },
   {
-    "Name": "Ryzen Threadripper 1900X",
+    "Name": "AMD Ryzen Threadripper 1900X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_threadripper/1900x",
     "Info": "Ryzen Threadripper 1900X is a 64-bit octa-core high-performance x86 desktop microprocessor introduced by AMD in mid-2017. The 1900X, which is based on their Zen microarchitecture, is fabricated on a 14 nm process. This processor operates at a base frequency of 3.8 GHz with a TDP of 180 W and a boost frequency of up to 4 GHz. This MPU supports up to 2 TiB of quad-channel DDR4-2666 memory. "
   },
   {
-    "Name": "Ryzen Threadripper 1920X",
+    "Name": "AMD Ryzen Threadripper 1920X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_threadripper/1920x",
     "Info": "Ryzen Threadripper 1920X is a 64-bit dodeca-core high-performance x86 desktop microprocessor introduced by AMD in mid-2017. The 1920X, which is based on their Zen microarchitecture, is fabricated on a 14 nm process. This processor operates at a base frequency of 3.5 GHz with a TDP of 180 W and a boost frequency of up to 4 GHz. This MPU supports up to 2 TiB of quad-channel DDR4-2666 memory. "
   },
   {
-    "Name": "Ryzen Threadripper 1950X",
+    "Name": "AMD Ryzen Threadripper 1950X",
     "URL": "https://en.wikichip.org/wiki/amd/ryzen_threadripper/1950x",
     "Info": "Ryzen Threadripper 1950X is a 64-bit hexadeca-core high-performance x86 desktop microprocessor introduced by AMD in mid-2017. The 1950X, which is based on their Zen microarchitecture, is fabricated on a 14 nm process. This processor operates at a base frequency of 3.4 GHz with a TDP of 180 W and a boost frequency of up to 4 GHz. This MPU supports up to 2 TiB of quad-channel DDR4-2666 memory. "
   },
   {
-    "Name": "2.0 TB",
-    "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
-    "Info": "A hard disk drive,an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
-  },
-  {
-    "Name": "2 TB",
-    "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
-    "Info": "A hard disk drive,an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
-  },
-  {
-    "Name": "1.0 TB",
-    "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
-    "Info": "A hard disk drive,an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
-  },
-  {
-    "Name": "1 TB",
-    "URL": "https://en.wikipedia.org/wiki/Hard_disk_drive",
-    "Info": "A hard disk drive,an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material. "
-  },
-  {
-    "Name": "WD20PURX",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
-    "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
-  },
-  {
-    "Name": "WD121PURZ",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
-    "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
-  },
-  {
-    "Name": "WD100PURZ",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
-    "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
-  },
-  {
-    "Name": "WD101PURZ",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
-    "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
-  },
-  {
-    "Name": "WD80PURZ",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
-    "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
-  },
-  {
-    "Name": "WD81PURZ",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6a28.pdf",
-    "Info": "Hard disk. WD Purple™ drives are built for 24/7, always-on, high-definition security systems."
-  },
-  {
-    "Name": "WD120EFAX",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6aa1.pdf",
-    "Info": "With drives up to 10TB, WD Red drives offer a wide array of solutions for customers looking to build a NAS storage solution. Built for single-bay to 8-bay NAS systems, WD Red drives pack the power to store data in one powerhouse unit. "
-  },
-  {
-    "Name": "WD100EFAX",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6aa1.pdf",
-    "Info": "With drives up to 10TB, WD Red drives offer a wide array of solutions for customers looking to build a NAS storage solution. Built for single-bay to 8-bay NAS systems, WD Red drives pack the power to store data in one powerhouse unit. "
-  },
-  {
-    "Name": "WD80EFAX",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6aa1.pdf",
-    "Info": "With drives up to 10TB, WD Red drives offer a wide array of solutions for customers looking to build a NAS storage solution. Built for single-bay to 8-bay NAS systems, WD Red drives pack the power to store data in one powerhouse unit. "
-  },
-  {
-    "Name": "WD60EFRX",
-    "URL": "https://docs-emea.rs-online.com/webdocs/16b6/0900766b816b6aa1.pdf",
-    "Info": "With drives up to 10TB, WD Red drives offer a wide array of solutions for customers looking to build a NAS storage solution. Built for single-bay to 8-bay NAS systems, WD Red drives pack the power to store data in one powerhouse unit. "
-  },
-  {
-    "Name": "",
+    "Name": "45CT3YKE4 SN74LS04N",
     "URL": "",
-    "Info": ""
+    "Info": "7404 IC contains six independent gates each of which performs the logic INVERT function. The operating voltage is 5V, high-level input voltage is 2V, and low-level input is 0.8V."
   }
 ]
