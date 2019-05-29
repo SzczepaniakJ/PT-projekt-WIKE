@@ -6,10 +6,7 @@
         xmlns:local="clr-namespace:PT_Projekt_WIKE2"
         mc:Ignorable="d"
         Title="MainWindow" Height="720" Width="1100">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
+    <Grid>        
         <DockPanel>
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_File" FontSize="16">
@@ -42,8 +39,7 @@
         <Button Content="Rotate by degree" HorizontalAlignment="Left" Margin="57,633,0,0" VerticalAlignment="Top" Width="157" FontSize="16" Height="35" Click="rotate_Click"/>
         <TextBox x:Name="ResponseBodyTextBlock" HorizontalAlignment="Left" Margin="572,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="268" Width="434" FontSize="16"/>
         <Image x:Name="LoadedImage" HorizontalAlignment="Left" Height="380" Margin="57,90,0,0" VerticalAlignment="Top" Width="438" Stretch="Uniform"/>
-        <Button x:Name="LoadImageButton" Content="Load image" HorizontalAlignment="Left" Margin="57,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="LoadImageButton_Click"/>
-        <Button x:Name="ResetToOriginalImageButton" Content="Reset image" HorizontalAlignment="Left" Margin="171,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="resetImageButton_Click"/>
+        <Button x:Name="ResetToOriginalImageButton" Content="Reset image" HorizontalAlignment="Left" Margin="57,475,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Height="35" Click="resetImageButton_Click"/>
         <RadioButton x:Name="MicrosoftRadioButton" Content="MS Computer Vision" HorizontalAlignment="Left" Margin="331,515,0,0" VerticalAlignment="Top" FontSize="16" Height="35"/>
         <RadioButton x:Name="TesseractRadioButton" Content="Tesseract" HorizontalAlignment="Left" Margin="331,555,0,0" VerticalAlignment="Top" FontSize="16" Height="35" Width="91"/>
         <Label x:Name="label1" Content="Recognized text:" HorizontalAlignment="Left" Margin="572,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="16"/>
@@ -66,7 +62,7 @@
             </Border>
         </Popup>
         <TextBox x:Name="ContrastTextBox" HorizontalAlignment="Left" Height="33" Margin="171,517,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" FontSize="16"/>
-        <TextBox x:Name="ThresholdTextBox" HorizontalAlignment="Left" Height="33" Margin="171,595,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" FontSize="16"/>
+        <TextBox x:Name="ThresholdTextBox" HorizontalAlignment="Left" Height="33" Margin="171,595,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" FontSize="16" TextChanged="ThresholdtextBox_Changed"/>
         <TextBox x:Name="AngleTextBox" HorizontalAlignment="Left" Height="33" Margin="219,635,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" FontSize="16"/>
     </Grid>
 </Window>

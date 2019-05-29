@@ -106,42 +106,6 @@ namespace PT_Projekt_WIKE2 {
             }
         }
 
-        private void LoadImageButton_Click(object sender, RoutedEventArgs e)
-        {
-            Microsoft.Win32.OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Wszystkie pliki (.)|*.*|BMP (.bmp)|*.bmp|PNG (.png)|*.png|JPG (.jpg)|*.jpg";
-
-            if (openFileDialog.ShowDialog() == true)
-            {
-                switch (System.IO.Path.GetExtension(openFileDialog.FileName))
-                {
-                    case ".bmp":
-                        image = new Bitmap(openFileDialog.FileName);
-                        image2 = image;
-                        LoadedImage.Source = (ImageSource)Convert(image);
-                        image.Save("obrazek.bmp", System.Drawing.Imaging.ImageFormat.Bmp);
-                        break;
-                    case ".png":
-                        image = new Bitmap(openFileDialog.FileName);
-                        image2 = image;
-                        LoadedImage.Source = (ImageSource)Convert(image);
-                        image.Save("obrazek.bmp", System.Drawing.Imaging.ImageFormat.Bmp);
-                        break;
-                    case ".jpg":
-                        image = new Bitmap(openFileDialog.FileName);
-                        image2 = image;
-                        LoadedImage.Source = (ImageSource)Convert(image);
-                        image.Save("obrazek.bmp", System.Drawing.Imaging.ImageFormat.Bmp);
-                        
-                        break;
-                    default:
-                        image = null;
-                        MessageBox.Show("Zle rozszerzenie pliku");
-                        break;
-                }
-            }
-        }
-
         private void TesseractSelectMode_Click(object sender, RoutedEventArgs e)
         {
             TesseractModePopup.IsOpen = true;
@@ -334,8 +298,16 @@ namespace PT_Projekt_WIKE2 {
 
         private void adjustContrast_Click(object sender, RoutedEventArgs e)
         {
-            image = AdjustContrast(image, Int32.Parse(ContrastTextBox.Text));
-            LoadedImage.Source = (ImageSource)Convert(image);
+            try
+            {
+                image = AdjustContrast(image, Int32.Parse(ContrastTextBox.Text));
+                LoadedImage.Source = (ImageSource)Convert(image);
+            }
+            catch(Exception f)
+            {
+                MessageBox.Show("Wrong value!");
+            }
+            
         }
 
         private void grayscale_Click(object sender, RoutedEventArgs e)
@@ -346,20 +318,50 @@ namespace PT_Projekt_WIKE2 {
 
         private void bw_Click(object sender, RoutedEventArgs e)
         {
-            //image = make_bw(image, Int32.Parse(ThresholdTextBox.Text));
-            image = make_bw(image, Int32.Parse(ThresholdTextBox.Text));
-            LoadedImage.Source = (ImageSource)Convert(image);
+            try
+            {
+                //image = make_bw(image, Int32.Parse(ThresholdTextBox.Text));
+                image = make_bw(image, Int32.Parse(ThresholdTextBox.Text));
+                LoadedImage.Source = (ImageSource)Convert(image);
+            }
+            catch
+            {
+                MessageBox.Show("Wrong value!");
+            }
+            
         }
 
         private void rotate_Click(object sender, RoutedEventArgs e)
         {
-            image = RotateImage(image, Int32.Parse(AngleTextBox.Text));
-            LoadedImage.Source = (ImageSource)Convert(image);
+            try
+            {
+                image = RotateImage(image, Int32.Parse(AngleTextBox.Text));
+                LoadedImage.Source = (ImageSource)Convert(image);
+            }
+            catch
+            {
+                MessageBox.Show("Wrong value!");
+            }
         }
 
         private void slider_Change(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             ThresholdTextBox.Text = ((int)ThresholdSlider.Value).ToString();
+        }
+
+        private void ThresholdtextBox_Changed(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            try
+            {
+                if (ThresholdTextBox.Text != "")
+                {
+                    ThresholdSlider.Value = Int32.Parse(ThresholdTextBox.Text);
+                }                    
+            }
+            catch
+            {
+                MessageBox.Show("Wrong value!");
+            }
         }
 
         private void resetImageButton_Click(object sender, RoutedEventArgs e)
