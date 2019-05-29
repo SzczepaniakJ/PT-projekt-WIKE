@@ -18,7 +18,7 @@ namespace PT_Projekt_WIKE2.Electronics
 
             foreach (var e in Elements)
             {
-                int temp = LevensteinDistance(name, e.Name);
+                int temp = LevensteinDistance(name, e.Name.ToLower());
 
                 if (temp < cost)
                 {
