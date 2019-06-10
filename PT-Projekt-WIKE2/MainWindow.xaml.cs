@@ -61,7 +61,7 @@ namespace PT_Projekt_WIKE2 {
                 }
                 else
                 {
-                    TextRecognizer textRecognizer = new TextRecognizer(KeyTextBox.Text);
+                    TextRecognizer textRecognizer = new TextRecognizer(KeyTextBox.Text, ServerTextBox.Text);
 
                     string responseBody = await textRecognizer.RecognizeText(path);
 
@@ -303,7 +303,7 @@ namespace PT_Projekt_WIKE2 {
                 image = AdjustContrast(image, Int32.Parse(ContrastTextBox.Text));
                 LoadedImage.Source = (ImageSource)Convert(image);
             }
-            catch(Exception f)
+            catch(Exception)
             {
                 MessageBox.Show("Wrong value!");
             }
@@ -362,6 +362,45 @@ namespace PT_Projekt_WIKE2 {
             {
                 MessageBox.Show("Wrong value!");
             }
+        }
+
+        private void selectServer_Click(object sender, RoutedEventArgs e)
+        {
+            ComputerVisionServer.IsOpen = true;
+        }
+
+        private void saveComputerVisionServer_Click(object sender, RoutedEventArgs e)
+        {
+            ComputerVisionServer.IsOpen = false;
+        }
+
+        private void menuSaveImage_Click(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Title = "Save an image file";
+            saveFileDialog.Filter = "Bitmap Image|*.bmp";
+
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                image.Save(saveFileDialog.FileName, System.Drawing.Imaging.ImageFormat.Bmp);
+            }
+        }
+
+        private void menuSaveRecognizedText_Click(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Title = "Save a component information";
+            saveFileDialog.Filter = "Text file|*.txt";
+
+            if (saveFileDialog.ShowDialog() == true)
+            {
+               
+            }
+        }
+
+        private void menuExit_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
         }
 
         private void resetImageButton_Click(object sender, RoutedEventArgs e)

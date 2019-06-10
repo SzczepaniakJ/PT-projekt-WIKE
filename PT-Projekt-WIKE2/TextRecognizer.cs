@@ -9,9 +9,9 @@ using Newtonsoft.Json.Linq;
 
 namespace PT_Projekt_WIKE2 {
     public sealed class TextRecognizer {
-        public TextRecognizer(string key) {
+        public TextRecognizer(string key, string uri) {
             SubscriptionKey = key;
-            URI = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/";
+            URI = uri;
         }
 
         private string SubscriptionKey { get; set; }
