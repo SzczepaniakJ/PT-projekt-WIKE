@@ -376,25 +376,46 @@ namespace PT_Projekt_WIKE2 {
 
         private void menuSaveImage_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.SaveFileDialog saveFileDialog = new SaveFileDialog();
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "BMP (.bmp)|.bmp|Wszystkie pliki (.)|*.*";
             saveFileDialog.Title = "Save an image file";
-            saveFileDialog.Filter = "Bitmap Image|*.bmp";
 
             if (saveFileDialog.ShowDialog() == true)
             {
-                image.Save(saveFileDialog.FileName, System.Drawing.Imaging.ImageFormat.Bmp);
+                switch (System.IO.Path.GetExtension(saveFileDialog.FileName))
+                {
+                    case ".bmp":
+                        image.Save(saveFileDialog.FileName, System.Drawing.Imaging.ImageFormat.Bmp);
+                        break;
+                    default:
+                        MessageBox.Show("Nie można zapisać obrazu do pliku o podanym rozszerzeniu!", "Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
+                        break;
+                }
             }
         }
 
         private void menuSaveRecognizedText_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Title = "Save a component information";
-            saveFileDialog.Filter = "Text file|*.txt";
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text file (.txt)|.txt|Wszystkie pliki (.)|*.*";
+            saveFileDialog.Title = "Save an image file";
 
             if (saveFileDialog.ShowDialog() == true)
             {
-               
+                switch (System.IO.Path.GetExtension(saveFileDialog.FileName))
+                {
+                    case ".txt":
+                        using (StreamWriter sw = new StreamWriter(saveFileDialog.FileName))
+                        {
+                            sw.Write(TextBlock.Text);
+                            sw.Flush();
+                            sw.Close();
+                        }
+                        break;
+                    default:
+                        MessageBox.Show("Nie można zapisać obrazu do pliku o podanym rozszerzeniu!", "Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
+                        break;
+                }
             }
         }
 
