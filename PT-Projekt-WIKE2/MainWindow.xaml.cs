@@ -7,6 +7,7 @@ using System.IO;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Linq;
 using Tesseract;
@@ -51,7 +52,13 @@ namespace PT_Projekt_WIKE2 {
             {
                 var ocr = new TesseractEngine("./tessdata", "eng", engineMode.ToString());
                 var page = ocr.Process(image);
-                ResponseBodyTextBlock.Text = page.GetText();
+
+                if (!Regex.IsMatch(page.GetText(), @"[a-zA-Z0-9]")) {
+                    ResponseBodyTextBlock.Text = "Could not find any letters or digits.";
+                }
+                else {
+                    ResponseBodyTextBlock.Text = page.GetText();
+                }
             }
             else if(MicrosoftRadioButton.IsChecked == true)
             {
@@ -163,7 +170,15 @@ namespace PT_Projekt_WIKE2 {
 
             var closestElement = list.OrderBy(element => element.Item2).ToList().FirstOrDefault();
             /*var closestElement = electronicsDictionary.FindClosest(ResponseBodyTextBlock.Text);*/
-            TextBlock.Text = closestElement.Item1.Name + "\n" + closestElement.Item1.Info;
+
+            if (closestElement == null)
+            {
+                TextBlock.Text = "The found phrase is too short.";
+            }
+            else
+            {
+                TextBlock.Text = closestElement.Item1.Name + "\n" + closestElement.Item1.Info;
+            }
         }
 
         public static Bitmap AdjustContrast(Bitmap Image, float Value)

@@ -36,10 +36,17 @@ namespace PT_Projekt_WIKE2 {
             }
 
             if (response.IsSuccessStatusCode) {
+                int timeCounter = 0;
+                const int networkTimeoutTime = 15;
+
                 string operationLocation = response.Headers.GetValues("Operation-Location").FirstOrDefault();
                 string responseStatus;
 
                 while (true) {
+                    if (timeCounter >= networkTimeoutTime)
+                    {
+                        return "Could not finish the operation within the 15 seconds.";
+                    }
                     response = await httpClient.GetAsync(operationLocation);
 
                     responseStatus = await response.Content.ReadAsStringAsync();
@@ -49,6 +56,7 @@ namespace PT_Projekt_WIKE2 {
                     }
 
                     else {
+                        timeCounter++;
                         Thread.Sleep(1000);
                     }
                 }
