@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PT_Projekt_WIKE2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1100">
+        Title="WIKE" Height="720" Width="1100">
     <Grid>
         <DockPanel>
             <Menu DockPanel.Dock="Top">

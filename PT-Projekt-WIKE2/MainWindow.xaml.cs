@@ -68,6 +68,7 @@ namespace PT_Projekt_WIKE2 {
                 }
                 else
                 {
+                    image.Save("obrazek.bmp", System.Drawing.Imaging.ImageFormat.Bmp);
                     TextRecognizer textRecognizer = new TextRecognizer(KeyTextBox.Text, ServerTextBox.Text);
 
                     string responseBody = await textRecognizer.RecognizeText(path);
