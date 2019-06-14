@@ -328,8 +328,16 @@ namespace PT_Projekt_WIKE2 {
 
         private void grayscale_Click(object sender, RoutedEventArgs e)
         {
-            image = MakeGrayscale(image);
-            LoadedImage.Source = (ImageSource)Convert(image);
+            try
+            {
+                image = MakeGrayscale(image);
+                LoadedImage.Source = (ImageSource)Convert(image);
+            }
+            catch
+            {
+                MessageBox.Show("Missing loaded image!");
+            }
+            
         }
 
         private void bw_Click(object sender, RoutedEventArgs e)
@@ -442,8 +450,16 @@ namespace PT_Projekt_WIKE2 {
 
         private void resetImageButton_Click(object sender, RoutedEventArgs e)
         {
-            image = image2;
-            LoadedImage.Source = (ImageSource)Convert(image);
+            try
+            {
+                image = image2;
+                LoadedImage.Source = (ImageSource)Convert(image);
+            }
+            catch
+            {
+                MessageBox.Show("Missing loaded image!");
+            }
+            
         }
     }
 }
